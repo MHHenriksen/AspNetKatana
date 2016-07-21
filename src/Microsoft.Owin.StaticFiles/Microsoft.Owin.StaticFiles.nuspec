@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>$id$</id>
-    <version>$version$</version>
+    <version>3.0.1-fix-459</version>
     <authors>$authors$</authors>
     <owners>$authors$</owners>
     <licenseUrl>$licenseUrl$</licenseUrl>
@@ -13,8 +13,8 @@
     <tags>$tags$</tags>
     <dependencies>
       <dependency id="Owin" version="1.0" />
-      <dependency id="Microsoft.Owin" version="$version$" />
-      <dependency id="Microsoft.Owin.FileSystems" version="$version$" />
+      <dependency id="Microsoft.Owin" version="3.0.1" />
+      <dependency id="Microsoft.Owin.FileSystems" version="3.0.1" />
     </dependencies>
   </metadata>
   <files>
