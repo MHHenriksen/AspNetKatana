@@ -3,6 +3,6 @@ Summary: A build of the Katana project containing bugfixes
 Maintainer: Mikal H. Henriksen <mhh@vizrt.com>
 ConformanceLevel: 4
 Publishable: yes
-IncludeFiles: artifacts\*.nupkg
+IncludeFiles: artifacts\compile\Microsoft.Owin.StaticFiles\Microsoft.Owin.StaticFiles.dll
 
 Contains all .nupkg files built from the Katana project fork at https://katanaproject.codeplex.com/SourceControl/network/forks/Stylpe/staticfileslongbyterange?branch=dev
