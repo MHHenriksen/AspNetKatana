@@ -209,7 +209,8 @@ namespace Microsoft.Owin.FileSystems
             public Stream CreateReadStream()
             {
                 // Note: Buffer size must be greater than zero, even if the file size is zero.
-                return new FileStream(PhysicalPath, FileMode.Open, FileAccess.Read, FileShare.ReadWrite, 1024 * 64,
+                // Use a buffer size of 1, following the example set by https://github.com/aspnet/FileSystem/issues/215
+                return new FileStream(PhysicalPath, FileMode.Open, FileAccess.Read, FileShare.ReadWrite, 1,
                     FileOptions.Asynchronous | FileOptions.SequentialScan);
             }
         }

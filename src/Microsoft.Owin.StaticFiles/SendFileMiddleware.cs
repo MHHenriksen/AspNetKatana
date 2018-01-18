@@ -88,7 +88,8 @@ namespace Microsoft.Owin.StaticFiles
                     throw new ArgumentOutOfRangeException("length", length, string.Empty);
                 }
 
-                Stream fileStream = new FileStream(fileName, FileMode.Open, FileAccess.Read, FileShare.ReadWrite, 1024 * 64,
+                // Use a buffer size of 1, following the example set by https://github.com/aspnet/FileSystem/issues/215
+                Stream fileStream = new FileStream(fileName, FileMode.Open, FileAccess.Read, FileShare.ReadWrite, 1,
                     FileOptions.Asynchronous | FileOptions.SequentialScan);
                 try
                 {

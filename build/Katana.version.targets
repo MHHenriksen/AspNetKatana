@@ -3,13 +3,13 @@
   <PropertyGroup>
     <ShipVersion>3.0.2</ShipVersion>
     <ShipStrongNameVersion>3.0.2.0</ShipStrongNameVersion>
-    <ShipFullVersion>3.0.2-rtw-40727-000</ShipFullVersion>
-    <ShipFileVersion>3.0.40727.0</ShipFileVersion>
+    <ShipFullVersion>3.0.2-rtw-70118-000</ShipFullVersion>
+    <ShipFileVersion>3.0.70118.0</ShipFileVersion>
     <MajorVersion>3</MajorVersion>
     <MinorVersion>0</MinorVersion>
     <PatchVersion>2</PatchVersion>
     <BuildQuality>rtw</BuildQuality>
-    <BuildDate>40727</BuildDate>
+    <BuildDate>70118</BuildDate>
     <BranchSuffix></BranchSuffix>
     <Eula>http://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm</Eula>
     <ProjectUrl>http://katanaproject.codeplex.com/</ProjectUrl>
